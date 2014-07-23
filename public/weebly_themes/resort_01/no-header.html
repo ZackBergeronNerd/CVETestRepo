@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+
+<body class='no-header-page  wsite-theme-light' ng-app="cveApp" ng-controller="cveCtrl as cveApp">
+      <div id="header-wrap">
+        <div class="container">
+            <table id="header">
+                <tr>
+                    <td id="logo">{logo}</td>
+					<td class="nav">{menu}</td>
+					<!--<td class="search">{search}</td>-->
+				</tr>
+            </table>
+
+			<div class="banner-wrap">
+				<div id="banner">
+					<h2>{headline:text global="false"}</h2>
+					<p>{headline-paragraph:text global="false"}</p>
+						{action:button global="false"}
+
+				</div>
+			</div>
+
+        </div><!-- end container -->
+    </div><!-- end header-wrap -->
+
+
+
+
+    <div id="main-wrap">
+        <div class="container">
+   			{content}
+        </div><!-- end container -->
+    </div><!-- end main-wrap -->
+
+    <div id="footer-wrap">
+        <div class="container">
+       		{footer}
+        </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+
+<script type="text/javascript" src="/files/theme/custom.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+/Users/ryhanson/dev/clearviewexpress/app/views/hero_tab_sections/show.blade.php

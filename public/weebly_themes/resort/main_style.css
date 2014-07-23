@@ -1,0 +1,93 @@
+@import url("bootstrap.css");
+
+.container {
+margin-top: 20px;
+}
+
+.wsite-menu-default {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.wsite-menu-default > li, .wsite-menu-default > span > li {
+  position: relative;
+  display: block;
+}
+.wsite-menu-default > li > a, .wsite-menu-default > span > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.wsite-menu-default > li > a:hover,
+.wsite-menu-default > li > a:focus,
+.wsite-menu-default > span > li > a:hover,
+.wsite-menu-default > span > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.wsite-menu-default > li.disabled > a {
+  color: #999;
+}
+.wsite-menu-default > li.disabled > a:hover,
+.wsite-menu-default > li.disabled > a:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.wsite-menu-default .open > a,
+.wsite-menu-default .open > a:hover,
+.wsite-menu-default .open > a:focus {
+  background-color: #eee;
+  border-color: #428bca;
+}
+.wsite-menu-default > li > a > img {
+  max-width: none;
+}
+
+.wsite-menu-default {
+  margin: 7.5px -15px;
+}
+.wsite-menu-default > li > a, .wsite-menu-default > span > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 767px) {
+  .wsite-menu-default .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .wsite-menu-default .open .dropdown-menu > li > a,
+  .wsite-menu-default .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .wsite-menu-default .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  .wsite-menu-default .open .dropdown-menu > li > a:hover,
+  .wsite-menu-default .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  .wsite-menu-default {
+    float: left;
+    margin: 0;
+  }
+  .wsite-menu-default > li, .wsite-menu-default > span > li {
+    float: left;
+  }
+  .wsite-menu-default > li > a, .wsite-menu-default > span > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .wsite-menu-default.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}

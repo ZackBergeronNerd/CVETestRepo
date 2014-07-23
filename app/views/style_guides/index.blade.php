@@ -1,0 +1,1 @@
+/Users/ryhanson/dev/clearviewexpress/app/views/style_guides/index.blade.php

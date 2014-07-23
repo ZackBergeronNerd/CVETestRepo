@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>	Grand Isle Resort</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="http://cve.io/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="http://cve.io/css/responsive.css" rel="stylesheet" media="screen">
+    <link href="http://cve.io/css/datepicker.css" rel="stylesheet" media="screen">
+
+    <!-- <link href="http://cve.io/css/packages" rel="stylesheet" media="screen"> -->
+    <style type="text/css">
+      .landing-logo {
+        margin: 10px 0px;
+      }
+    </style>
+    	<style type="text/css">
+		@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+        @import url(http://fonts.googleapis.com/css?family=Cinzel);
+
+        body {
+        	background-color: #e2f9ff;
+        }
+
+        .content {
+        	font-family: "Lato", sans-serif;
+        	font-size: 15px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+        	font-family: "Lato", sans-serif;
+        }
+
+        h4 {
+        	margin-bottom: 17px;
+        }
+
+        form {
+        	padding: 10px;
+			background-color: #dadada;
+			border-radius: 5px;
+        }
+
+        label {
+        	font-size: 16px;
+        }
+
+        .landing-section-content {
+        	margin-bottom: 10px;
+        }
+	</style>
+  </head>
+  <body>
+    
+    <div class="container content">
+      <div class="row-fluid landing-logo">
+        <div class="span3">&nbsp;</div>
+        <div class="span4 text-center">
+          			<img src="http://cve.io/libs/timthumb.php?src=..//uploads/logos/grandisle_logo.png&h=125&ar=1" alt="Grand Isle Resort Logo">
+	        </div>
+        <div class="span3">&nbsp;</div>
+      </div>
+      			<div class="row-fluid">
+			<div class="span10">
+												<div class="landing-section-content">
+					
+					<div class="row-fluid">
+						<div class="span10">
+							<img src="http://cve.io/libs/timthumb.php?src=../uploads/images/grandisle_1-2.jpg&w=970&ar=1">
+						</div>
+					</div>				</div>
+			</div>
+		</div>
+			<div class="row-fluid">
+			<div class="span10">
+									<h2>Bahamian paradise is within your grasp, but not forever!</h2>
+												<div class="landing-section-content">
+					
+					<div class="row-fluid">
+						<div class="span6">
+							<p class="text-justify">Limited availability is left in several Villa categories, this is because the Grand Isle Villas checks all the boxes that savvy second home owners want. Ultra luxury, fully furnished residences with the option to cover expenses as part of the Grand Isle rental program and enjoy other fantastic destinations around the world via two luxury reciprocity clubs, The Elite Alliance and 3RD HOME.  </p>
+							<p class="text-justify">Grand Isle Villa owners enjoy all the aforementioned finer points of second home ownership along with the niceties they demand; white sand, blue water, fresh cuisine, room service, housekeeping and concierge service. </p>
+							<p class="text-justify">Prices starting in the $500’s up to $4 million. Inquire now and receive detailed ownership information to your inbox instantly.</p>
+						</div>
+						<div class="span4">
+							<form name="web2prospect" method="get" action="http://grandislevillas.force.com/pba__WebserviceWebToProspect">
+							<input type="hidden" name="successpage" value="http://cve.io/lp?success=1" />
+							<input type="hidden" name="errorpage" value="http://cve.io/lp?error=1" />
+							<!-- uncomment the following line to get error messages in the response if the web2prospect process fails. -->
+							<!-- <input type="hidden" name="debugmode" value="true" /> -->
+
+							<input type="hidden" name="Contact.ContactType__c" value="Buyer" />
+							<input type="hidden" name="Contact.Stage__c" value="2. Info Response" />
+							<input type="hidden" name="Contact.Status__c" value="Active" />
+							<input type="hidden" name="Contact.Lead_Contact_Method__c" value="Landing Page" />
+							<input type="hidden" name="Contact.Lead_Source__c" value="Google PPC" />
+
+							<label for="Contact.FirstName">First name</label>
+							<input type="text" size="40" name="Contact.FirstName" maxlength="40" id="Contact.FirstName" /><br/>
+
+							<label for="Contact.LastName">Last name</label>
+							<input type="text" size="40" name="Contact.LastName" maxlength="80" id="Contact.LastName" /><br/>
+
+							<label for="Contact.Email">Email</label>
+							<input type="text" size="40" name="Contact.Email" maxlength="80" id="Contact.Email" /><br/>
+
+							<label for="Contact.Phone">Telephone</label>
+							<input type="text" size="40" name="Contact.Phone" maxlength="40" id="Contact.Phone" /><br/>
+
+							<input type="submit" value="Submit" name="submit" />
+
+							</form>
+						</div>
+					</div>				</div>
+			</div>
+		</div>
+	
+	
+	    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://cve.io/js/bootstrap.min.js"></script>
+    <script src="http://cve.io/js/bootstrap-datepicker.js"></script>
+    <script src="http://cve.io/js/fluidvids.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("input[type='submit']").addClass('btn btn-primary');
+      $("input[type='text']").addClass('input-block-level');
+      $('#modal_status').modal();
+    });
+    </script>
+      </body>
+</html>

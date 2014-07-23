@@ -1,0 +1,1 @@
+/Users/ryhanson/dev/clearviewexpress/app/views/user_website_page_opens/show.blade.php

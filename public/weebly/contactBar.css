@@ -1,0 +1,99 @@
+.contact-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    overflow-y: scroll;
+    max-height: 100%;
+    height: auto;
+    z-index: 1000;
+
+}
+#contactPanel {
+    background: #f4f4f4;
+    /*height: 250px;*/
+    display: none;
+    border-radius: 0 5px 0 0;
+
+    overflow: auto;
+    padding-top: 10px;
+    height: auto;
+    max-height: 100%;
+    
+}
+.slide {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background: #666666;
+    border-radius: 0 5px 0 0;
+}
+.btn-slide {
+    background: none;
+    text-align: left;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+.btn-slide:hover {
+    text-decoration: none;
+    color: #EFEFEF;
+
+}
+.btn-slide:focus {
+    outline: none;
+}
+.contact-arrow {
+    color: #FEFEFE;
+    cursor: pointer;
+    font-size: 16px;
+    float:right;
+    padding:10px 10px 0 0;
+}
+
+.contact-info {
+    /*width: 350px;*/
+    max-width: 350px;
+    /*height: 100%;*/
+    float: left;
+
+    width: auto;
+    height: auto;
+
+}
+
+.info-padding {
+    /*padding: 10px;*/
+
+    padding: 0px 10px 10px 10px;
+    overflow: auto;
+}
+
+.contact-photo {
+    float: left;
+    max-width: 165px;
+    
+    width: 50%;
+}
+
+.contact-photo img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contact-details {
+    float: left;
+    max-width: 165px;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.6em;
+
+    width: 50%;
+}
+
+.contact-details ul {
+    margin-left: 10px;
+    list-style: none;
+}
